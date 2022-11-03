@@ -847,6 +847,16 @@ h1, h2, h3, h4, h5 h6 {
 }
 
 @media (max-width: 770px){
+        /* Footer */
+        .footer__col--first{
+            width: 100%;
+        }
+    
+        .footer__col--second,
+        .footer__col--third{
+            width: 100%;
+        }
+
     /* Intro */
     .intro{
         min-height: 650px;
@@ -967,16 +977,6 @@ h1, h2, h3, h4, h5 h6 {
 
     .subscribe__input,
     .subscribe__btn{
-        width: 100%;
-    }
-
-    /* Footer */
-    .footer__col--first{
-        width: 100%;
-    }
-
-    .footer__col--second,
-    .footer__col--third{
         width: 100%;
     }
 }
