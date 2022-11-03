@@ -969,6 +969,16 @@ h1, h2, h3, h4, h5 h6 {
     .subscribe__btn{
         width: 100%;
     }
+
+    /* Footer */
+    .footer__col--first{
+        width: 100%;
+    }
+
+    .footer__col--second,
+    .footer__col--third{
+        width: 100%;
+    }
 }
 
 @media (max-width: 575px){
