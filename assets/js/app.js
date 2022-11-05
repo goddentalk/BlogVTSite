@@ -34,6 +34,19 @@ $(function() {
 
     });
 
+    $(document).mouseup(function(event) {
+
+        event.preventDefault();
+
+        var div = $("#nav_toggle");
+
+        if (!div.is(event.target) && div.has(event.target).length === 0) {
+            $("#nav").removeClass("active");
+            $("#nav_toggle").removeClass("active");
+        }
+
+    });
+
     /* Smooth scroll */
     $("[data-scroll]").on("click", function(event){
         
